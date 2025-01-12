@@ -24,30 +24,6 @@ This project consists of two main components:
 
 ---
 
-## Setup Instructions
-
-### 1. **Prerequisites**
-
-Ensure the following are installed:
-
-- **Python 3.8**
-- **OpenCV**: For image processing and displaying results
-- **face_recognition**: For face detection and encoding
-- **NumPy**: For handling arrays
-
-### 2. **Face Encoding (Training Phase)**
-
-In this phase, you will process images of known individuals and store their encodings.
-
----
-
-### 3. **Face Recognition (Recognition Phase)**
-
-After you've encoded the known faces, you can use a script to recognize faces in unknown images.
-The script will display the images with rectangles drawn around the detected faces and their names, and if no match is found, it will label the face as "Unknown".
-
----
-
 ## How It Works
 
 1. **Training Phase**:
